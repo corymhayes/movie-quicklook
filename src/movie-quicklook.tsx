@@ -63,8 +63,8 @@ export default function Command() {
       {searchText === "" && data.length === 0 ? (
         <Grid.EmptyView
           icon={"../assets/empty-view-icon.png"}
-          title="No movie entered"
-          description="Type a movie to get started"
+          title="Type a movie to get started"
+          description="All images and data are from TMDB (themoviedb.com)"
         />
       ) : (
         data.map((movie: Movie) => (
